@@ -1,0 +1,8 @@
+/* Lazy loading image styles */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+img.loaded {
+  opacity: 1;
+}
